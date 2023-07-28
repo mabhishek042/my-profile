@@ -2,13 +2,36 @@
 <html lang="en">
   <head>
     <title>Iframe</title>
+    <link
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+    integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
+    crossorigin="anonymous"
+    referrerpolicy="no-referrer"
+  />
   </head>
+  <style>
+    #para{
+      color: rgb(236, 45, 137);
+      
+      margin: 5px;
+    }
+    .intro{
+      text-transform: uppercase;
+      text-decoration: none;
+      margin-right: 50px;
+    }
+
+  </style>
   <body>
-    <a href="professionalSummary.html" target="myFrame">HOME</a> &nbsp; &nbsp;
-    <a href="techStack.html" target="myFrame">TECH STACK</a>&nbsp; &nbsp; 
-    <a href="projectDetails.html" target="myFrame">PROJECT</a>&nbsp; &nbsp;
-    <a href="education.html" target="myFrame">EDUCATION</a>&nbsp; &nbsp;
-    <a href="personalDetails.html" target="myFrame">ABOUT ME</a> <br /><br />
+    <i class="fa-solid fa-user fa-xl" id="para"></i> <span id="para" style="margin-right:50px;">Chris Woakes</span>  
+    <i class="fa-solid fa-phone fa-xl" id="para"></i> <span id="para" style="margin-right:50px;">+1 958 956 4785</span>
+    <i class="fa-solid fa-envelope fa-xl"id="para"></i> <span id="para" style="margin-right:50px;">chris.woakes@englandcricket.com</span> <br> <br>
+    <a href="professionalSummary.html" target="myFrame" class="intro">home</a> 
+    <a href="techStack.html" target="myFrame" class="intro">techstack</a>&nbsp; &nbsp; 
+    <a href="projectDetails.html" target="myFrame" class="intro">project</a>&nbsp; &nbsp;
+    <a href="education.html" target="myFrame" class="intro">education</a>&nbsp; &nbsp;
+    <a href="personalDetails.html" target="myFrame" class="intro">about me</a> <br /><br />
     <iframe src="" height="600px" width="1400px" name="myFrame"></iframe>
   </body>
 </html>
